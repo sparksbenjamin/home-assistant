@@ -9,11 +9,11 @@
   "options": {
     "url": "",
     "password": "",
-    "api_token": "",
+    "api_token": ""
   },
   "schema": {
     "url": "str",
     "password": "str",
-    "api_token": "str",
+    "api_token": "str"
   }
 }
