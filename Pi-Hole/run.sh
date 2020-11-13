@@ -1,6 +1,4 @@
 #!/usr/bin/with-contenv bashio
-sed -e
-
 CONFIG_PATH=/data/options.json
 
 token=""
