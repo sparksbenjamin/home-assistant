@@ -6,6 +6,10 @@
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
-  "options": {},
+  "options": 
+  {
+    "URL": "str"
+    "Password": "str"
+  },
   "schema": {}
 }
