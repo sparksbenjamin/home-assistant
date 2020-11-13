@@ -3,6 +3,7 @@
   "version": "1.0.10",
   "slug": "pi-hole",
   "description": "Interface with Pi-Hole Install",
+  "url": "https://github.com/hassio-addons/Pi-Hole",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
