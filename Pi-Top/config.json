@@ -1,7 +1,7 @@
 {
   "name": "Pi-Hole",
   "version": "1",
-  "slug": "Pi-Hole",
+  "slug": "pi-hole",
   "description": "Interface with Pi-Hole Install",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
