@@ -3,7 +3,7 @@
   "version": "0.1",
   "slug": "pitop",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "description": "Expose a web frontend to control my coffee maker",
+  "description": "Expose a web frontend to Pi-Top box",
   "startup": "before",
   "boot": "auto",
   "ports": {
