@@ -12,7 +12,7 @@
     "API Token": ""
   },
   "schema": {
-    "beer": "str",
+    "URL": "str",
     "password": "str",
     "API Token": "str"
   }
