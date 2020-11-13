@@ -1,9 +1,9 @@
 {
-  "name": "Pi-Top",
+  "name": "Pi-Hole",
   "version": "0.1",
-  "slug": "pitop",
+  "slug": "Pi-Hole",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "description": "Expose a web frontend to Pi-Top box",
+  "description": "Expose a web frontend to Pi-Hole box",
   "startup": "before",
   "boot": "auto",
   "ports": {
