@@ -15,5 +15,5 @@
   "schema": {
     "device": "str"
   },
-  "image": "hub/{arch}-coffee-maker"
+  "image": "icon.png"
 }
