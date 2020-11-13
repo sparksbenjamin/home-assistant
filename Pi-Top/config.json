@@ -1,6 +1,6 @@
 {
   "name": "Pi-Hole",
-  "version": "1.0.9",
+  "version": "1.1.0.1",
   "slug": "pi-hole",
   "description": "Interface with Pi-Hole Install",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -9,11 +9,11 @@
   "options": {
     "url": "",
     "password": "",
-    "api_token": ""
+    "api_token": "",
   },
   "schema": {
     "url": "str",
     "password": "str",
-    "api_token": "str"
+    "api_token": "str",
   }
 }
