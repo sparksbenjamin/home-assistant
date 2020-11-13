@@ -1,19 +1,11 @@
 {
   "name": "Pi-Hole",
-  "version": "0.1",
+  "version": "1",
   "slug": "Pi-Hole",
+  "description": "Interface with Pi-Hole Install",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "description": "Expose a web frontend to Pi-Hole box",
-  "startup": "before",
+  "startup": "application",
   "boot": "auto",
-  "ports": {
-    "80/tcp": 8080
-  },
-  "options": {
-    "device": null
-  },
-  "schema": {
-    "device": "str"
-  },
-  "image": "icon.png"
+  "options": {},
+  "schema": {}
 }
