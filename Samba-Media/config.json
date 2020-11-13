@@ -1,0 +1,19 @@
+{
+  "name": "Samba-Media",
+  "version": "1.0.1",
+  "slug": "samba-media",
+  "description": "Interface with Pi-Hole Install",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "Path": "",
+    "Username": "",
+    "password": ""
+  },
+  "schema": {
+    "Path": "str",
+    "Username": "str",
+    "password": "str"
+  }
+}
