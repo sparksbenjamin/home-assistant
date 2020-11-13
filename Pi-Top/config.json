@@ -1,0 +1,19 @@
+{
+  "name": "Pi-Top",
+  "version": "0.1",
+  "slug": "pitop",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "description": "Expose a web frontend to control my coffee maker",
+  "startup": "before",
+  "boot": "auto",
+  "ports": {
+    "80/tcp": 8080
+  },
+  "options": {
+    "device": null
+  },
+  "schema": {
+    "device": "str"
+  },
+  "image": "hub/{arch}-coffee-maker"
+}
