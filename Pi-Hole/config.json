@@ -1,9 +1,9 @@
 {
   "name": "Pi-Hole",
-  "version": "1.0.10",
+  "version": "1.1.1.0",
   "slug": "pi-hole",
   "description": "Interface with Pi-Hole Install",
-  "url": "https://github.com/hassio-addons/Pi-Hole",
+  "url": "https://github.com/hassio-addons/addon-adb",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",

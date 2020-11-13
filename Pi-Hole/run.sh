@@ -1,10 +1,13 @@
 #!/usr/bin/with-contenv bashio
-CONFIG_PATH=/data/options.json
-$token = ""
-$token = $(jq --raw-output ".API_Token" $CONFIG_PATH)
-$url = $(jq --raw-output ".URL" $CONFIG_PATH)
-$running = $true
+sed -e
 
+CONFIG_PATH=/data/options.json
+
+token=""
+$running = $true
+function get-token{
+	$token=$(jq --raw-output ".api_token" $CONFIG_PATH)
+}
 while $running;do
 	echo $token
 	echo Hello world!
