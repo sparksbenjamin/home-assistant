@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "slug": "Wiz-Light",
   "description": "Interface with Pi-Hole Install",
-  "url": "https://github.com/sparksbenjamin/home-assistant/tree/main/Wiz"
+  "url": "https://github.com/sparksbenjamin/home-assistant/tree/main/Wiz",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
