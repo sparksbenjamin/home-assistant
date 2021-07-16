@@ -1,7 +1,7 @@
 {
-  "name": "Samba-Media",
+  "name": "Wiz Light",
   "version": "1.0.2",
-  "slug": "samba-media",
+  "slug": "Wiz-Light",
   "description": "Interface with Pi-Hole Install",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
